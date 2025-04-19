@@ -1,0 +1,41 @@
+#weatherforecast {
+    background-color: #4CAF50;
+    padding: 10px;
+  }
+
+  #weatherforecast #text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+  }
+
+  #weatherforecast span {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  /* Remove default list styles */
+  #weathertext {
+    list-style: none; 
+    margin: 0;
+    padding: 0;
+    display: flex; /* Makes the list items horizontal */
+  }
+
+  /* Style for list items */
+  #weathertext li {
+    margin: 0 15px; /* Add spacing between list items */
+  }
+
+  /* Style for anchor tags */
+  #weathertext a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+  }
+
+  /* Hover effect for links */
+  #weathertext a:hover {
+    text-decoration: underline;
+  }
